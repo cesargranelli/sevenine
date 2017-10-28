@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+	<head>
+		<title>Sevenine - Home</title>
+	<!-- Css -->
+		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/sevenine.css">
+	<!-- Icons -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta property="og:title" content="Sevenine" />
+		<meta property="og:url" content="http://www.sevenine.com.br" />
+		<meta property="og:image" content="http://www.sevenine.com.br/public/img/sevenine_index.png" />
+		<meta property="og:image:type" content="image/jpeg" />
+		<meta property="og:image:width" content="400" />
+		<meta property="og:image:height" content="300" />
+	<!-- Javascript -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+		<script src="/js/sevenine-angular.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+	</head>
+	<body class="blue lighten-5" ng-app="sevenine">
+		<main>
+			<div class="row">
+				<div class="navbar-fixed">
+					<nav class="blue darken-2">
+						<div class="nav-wrapper">
+							<a href="/" class="brand-logo center hoverable"><i class="material-icons">polymer</i></a>
+							<a href="#!" data-activates="mobile-sevenine" class="button-collapse"><i class="material-icons">menu</i></a>
+							<ul class="left hide-on-med-and-down">
+								<li><a href="/perfil"><i class="material-icons left">person</i>Perfil</a></li>
+								<li><a href="/projetos"><i class="material-icons left">store</i>Projetos</a></li>
+							</ul>
+							<ul class="right hide-on-med-and-down">
+								<li><a href="/trabalhos"><i class="material-icons right">done</i>Trabalhos</a></li>
+								<li><a href="/estudos"><i class="material-icons right">dashboard</i>Estude!</a></li>
+							</ul>
+							<ul class="side-nav" id="mobile-sevenine">
+								<li><a href="/perfil"><i class="material-icons left">person</i>Perfil</a></li>
+								<li><a href="/projetos"><i class="material-icons left">store</i>Projetos</a></li>
+								<li><a href="/trabalhos"><i class="material-icons left">done</i>Trabalhos</a></li>
+								<li><a href="/estudos"><i class="material-icons left">dashboard</i>Estude!</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+	<div class="col m6 s12">
+		<div class="card small hoverable">
+			<div class="card-image brown lighten-1">
+				<span class="card-title">
+					<i class="large material-icons left">person</i>Perfil
+				</span>
+			</div>
+			<div class="card-content">
+				<p>Acesse o perfil para conhecer um pouco mais sobre o desenvolvedor</p>
+			</div>
+			<a href="/perfil">
+				<div class="card-action waves-effect waves-block">
+					<i class="material-icons right">send</i>Visite o Perfil
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="col m6 s12">
+		<div class="card small hoverable">
+			<div class="card-image orange lighten-1">
+				<span class="card-title">
+					<i class="large material-icons left">store</i>Projetos
+				</span>
+			</div>
+			<div class="card-content">
+				<p>Confira alguns dos meus projetos/ideias em andamento</p>
+			</div>
+			<a href="/projetos">
+				<div class="card-action waves-effect waves-block">
+					<i class="material-icons right">send</i>Veja meus Projetos
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="col m6 s12">
+		<div class="card small hoverable">
+			<div class="card-image green lighten-1">
+				<span class="card-title">
+					<i class="large material-icons left">done</i>Trabalhos
+				</span>
+			</div>
+			<div class="card-content">
+				<p>Aqui estão alguns dos meus trabalhos entregues</p>
+			</div>
+			<a href="/trabalhos">
+				<div class="card-action waves-effect waves-block">
+					<i class="material-icons right">send</i>Veja meus trabalhos
+				</div>
+			</a>
+		</div>
+	</div>
+	<div class="col m6 s12">
+		<div class="card small hoverable">
+			<div class="card-image red lighten-1">
+				<span class="card-title">
+					<i class="large material-icons left">dashboard</i>Estude!
+				</span>
+			</div>
+			<div class="card-content">
+				<p>Conteúdo para vcê estudar e aprender mais sobre práticas de desenvolvimento feito por profissionais da área</p>
+			</div>
+			<a href="/estude">
+				<div class="card-action waves-effect waves-block">
+					<i class="material-icons right">send</i>Acesse os conteúdos gratuitamente
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+			</div>
+		</main>
+		<footer class="page-footer blue darken-1">
+			<div class="container">
+				<div class="row">
+					<div class="col m8 s4">
+						<h5 class="white-text">Social</h5>
+					</div>
+					<div class="col m1 s2">
+						<a href="https://www.facebook.com/cesargranelli" target="_blank"><h5><i class="fa fa-facebook white-text"></i></h5></a>
+					</div>
+					<div class="col m1 s2">
+						<a href="https://twitter.com/cesargranelli" target="_blank"><h5><i class="fa fa-twitter white-text"></i></h5></a>
+					</div>
+					<div class="col m1 s2">
+						<a href="https://br.linkedin.com/in/cesargranelli" target="_blank"><h5><i class="fa fa-linkedin white-text"></i></h5></a>
+					</div>
+					<div class="col m1 s2">
+						<a href="https://plus.google.com/+CesarAugustoGranelli" target="_blank"><h5><i class="fa fa-google-plus white-text"></i></h5></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© 2015 Copyright Sevenine - Cesar Augusto Granelli
+				</div>
+			</div>
+		</footer>
+		<script>
+			$(document).ready(function(){
+				$(".button-collapse").sideNav();
+			});
+		</script>
+	</body>
+</html>
