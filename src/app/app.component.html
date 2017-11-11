@@ -1,12 +1,11 @@
-
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
 	<head>
 		<title>Sevenine - Home</title>
 	<!-- Css -->
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/css/sevenine.css">
+		<!--<link rel="stylesheet" href="/css/sevenine.css">-->
 	<!-- Icons -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<!--Meta -->
@@ -19,11 +18,10 @@
 		<meta property="og:image:height" content="300" />
 	<!-- Javascript -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
-		<script src="/js/sevenine-angular.js"></script>
+		<!--<script src="/js/sevenine-angular.js"></script>-->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
 	</head>
-	<body class="blue lighten-5" ng-app="sevenine">
+	<body class="blue lighten-5">
 		<main>
 			<div class="row">
 				<div class="navbar-fixed">
@@ -50,76 +48,9 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
-	<div class="col m6 s12">
-		<div class="card small hoverable">
-			<div class="card-image brown lighten-1">
-				<span class="card-title">
-					<i class="large material-icons left">person</i>Perfil
-				</span>
-			</div>
-			<div class="card-content">
-				<p>Acesse o perfil para conhecer um pouco mais sobre o desenvolvedor</p>
-			</div>
-			<a href="/perfil">
-				<div class="card-action waves-effect waves-block">
-					<i class="material-icons right">send</i>Visite o Perfil
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="col m6 s12">
-		<div class="card small hoverable">
-			<div class="card-image orange lighten-1">
-				<span class="card-title">
-					<i class="large material-icons left">store</i>Projetos
-				</span>
-			</div>
-			<div class="card-content">
-				<p>Confira alguns dos meus projetos/ideias em andamento</p>
-			</div>
-			<a href="/projetos">
-				<div class="card-action waves-effect waves-block">
-					<i class="material-icons right">send</i>Veja meus Projetos
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="col m6 s12">
-		<div class="card small hoverable">
-			<div class="card-image green lighten-1">
-				<span class="card-title">
-					<i class="large material-icons left">done</i>Trabalhos
-				</span>
-			</div>
-			<div class="card-content">
-				<p>Aqui estão alguns dos meus trabalhos entregues</p>
-			</div>
-			<a href="/trabalhos">
-				<div class="card-action waves-effect waves-block">
-					<i class="material-icons right">send</i>Veja meus trabalhos
-				</div>
-			</a>
-		</div>
-	</div>
-	<div class="col m6 s12">
-		<div class="card small hoverable">
-			<div class="card-image red lighten-1">
-				<span class="card-title">
-					<i class="large material-icons left">dashboard</i>Estude!
-				</span>
-			</div>
-			<div class="card-content">
-				<p>Conteúdo para vcê estudar e aprender mais sobre práticas de desenvolvimento feito por profissionais da área</p>
-			</div>
-			<a href="/estude">
-				<div class="card-action waves-effect waves-block">
-					<i class="material-icons right">send</i>Acesse os conteúdos gratuitamente
-				</div>
-			</a>
-		</div>
-	</div>
-</div>
+
+				<router-outlet></router-outlet>
+
 			</div>
 		</main>
 		<footer class="page-footer blue darken-1">
